@@ -8,8 +8,10 @@ import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
 
-	public String baseURL = "https://demo.guru99.com/V1/index.php";
+	public String baseURL = "https://www.way2automation.com/angularjs-protractor/banking/#/login";
 	public String username = "mngr577350";
+	public String username1 = "mngr577350";
+
 	public String password = "aqerysY";
 	public static WebDriver driver;
 
@@ -24,7 +26,7 @@ public class BaseClass {
 		PropertyConfigurator.configure("log4j.properties");
 
 	}
-	
+
 	public void teardown() {
 		driver.quit();
 	}
