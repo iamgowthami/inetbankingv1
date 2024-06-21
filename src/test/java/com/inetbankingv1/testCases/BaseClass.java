@@ -11,8 +11,12 @@ public class BaseClass {
 	public String baseURL = "https://www.way2automation.com/angularjs-protractor/banking/#/login";
 	public String username = "mngr577350";
 	public String username1 = "mngr577350";
+	public String username2 = "mngr577350";
+
 
 	public String password = "aqerysY";
+	public String password2 = "aqerysY";
+
 	public static WebDriver driver;
 
 	public Logger logger;
